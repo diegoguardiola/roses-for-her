@@ -1,0 +1,6 @@
+def checkio(*args):
+    if args != 0:
+        p = sorted(args)
+        return round(p[-1]-p[0],3)
+    else:
+        return 0
